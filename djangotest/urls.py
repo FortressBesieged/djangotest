@@ -20,5 +20,5 @@ from apps.message.views import getform
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
-    url(r'^form/$', getform)
+    url(r'^form/$', getform, name="form_test")
 ]
